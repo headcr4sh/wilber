@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.cathive.Wilber</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Wilber</name>
+  <summary>Your friendly AI-powered assistant</summary>
+  <description>
+    <p>
+      An AI-powered assistant that helps you get your stuff done.
+      It can run offline or use an OpenAI/OpenAI-compatible remote endpoint.
+    </p>
+  </description>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <content_rating type="oars-1.1"/>
+  <developer id="com.cathive">
+    <name>The Cat Hive Developers</name>
+  </developer>
+  <launchable type="desktop-id">com.cathive.Wilber.desktop</launchable>
+  <url type="homepage">https://github.com/cathive/wilber</url>
+  <url type="vcs-browser">https://github.com/cathive/wilber</url>
+</component>
