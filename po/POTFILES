@@ -1,0 +1,7 @@
+data/com.cathive.Wilber.desktop.in
+data/com.cathive.Wilber.metainfo.xml.in
+data/com.cathive.Wilber.gschema.xml
+src/main.vala
+src/window.vala
+src/window.ui
+src/chat_message_view.ui

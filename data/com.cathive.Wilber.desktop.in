@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wilber
+GenericName=Assistant
+Comment=Your friendly assistant
+Exec=wilber
+Icon=com.cathive.Wilber
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Core;Utility;
+Keywords=AI;Assistant;LLM;Secretary;Wilber;
+DBusActivatable=true
+SingleMainWindow=true

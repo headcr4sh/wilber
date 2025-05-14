@@ -1,0 +1,9 @@
+/.vscode/settings.json
+
+/build/
+/_build/
+
+/.flatpak/
+/.flatpak-builder/
+
+*~

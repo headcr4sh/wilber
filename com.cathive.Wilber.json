@@ -1,0 +1,52 @@
+{
+    "id" : "com.cathive.Wilber",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "49",
+    "sdk" : "org.gnome.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.vala"
+    ],
+    "command" : "wilber",
+    "finish-args" : [
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--device=dri",
+        "--own-name=com.cathive.Wilber"
+    ],
+    "build-options" : {
+        "append-path" : "/usr/lib/sdk/vala/bin",
+        "prepend-ld-library-path" : "/usr/lib/sdk/vala/lib"
+    },
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
+    "copy-icon" : true,
+    "modules" : [
+        {
+            "name" : "wilber",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "dir",
+                    "path" : "."
+                }
+            ],
+            "config-opts" : [
+                "--libdir=lib"
+            ]
+        }
+    ],
+    "tags" : []
+}
